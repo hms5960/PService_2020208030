@@ -19,5 +19,5 @@ public interface ConnectionMaker {
 //                ("jdbc:mysql://127.0.0.1/jeju", "jeju", "jejupw");
 //        return connection;
 //    }
-    public Connection getConnection() throws ClassNotFoundException, SQLException;
+    Connection getConnection() throws ClassNotFoundException, SQLException;
 }
